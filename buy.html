@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopping-cart</title>
+    <!-- ionicon only -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ionicons/6.0.4/esm/ionicons.min.js" integrity="sha512-J4LkJr/AeK/KXjqkfb/65C4jzT4gG7BDqH9OtiOzCmULhWdKGppS3dCCzo0bmFULnZkajr4esopJYYLOLzuznw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <!-- Font Awasome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+<body>
+    <div class="container form-container">
+    <form action="connect_1.php" method="post">
+        <div>
+        <label for="name" class="form-label">Name:</label>
+            <input type="text" id="name" class="form-control" placeholder="enter your name " name="name" >
+        </div>
+        <div>
+            <label for="email" class="form-label">Email:</label>
+                <input type="email" id="email" class="form-control" placeholder="enter your mail " name="email" >
+            </div>
+            <div>
+                <label for="phone" class="form-label">Phone:</label>
+                    <input type="number" id="phone" class="form-control" placeholder="enter your mobile number " name="phone" >
+                </div>
+                <div>
+                    <label for="address" class="form-label">Address:</label>
+                    <div class="row">
+                        
+                            <input type="text" id="address_1" class="form-control" placeholder="enter your address_1 " name="address_1" >
+                        </div>
+                        <div class="row">
+                            <input type="text" id="address_2" class="form-control" placeholder="enter your address_2 " name="address_2" >
+                        </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-6">
+                    <input type="text" id="state" class="form-control" placeholder="enter your state " name="state" >
+                </div>
+                <div class="col-6">
+                    <input type="number" id="pin" class="form-control" placeholder="enter your pin " name="pin" >
+                </div>
+
+            </div>
+
+
+<div class="row">
+    
+<div class="col-5"></div>
+<div class="col-1"><button type="submit" class="btn btn-primary " >SUBMIT</button>
+
+</div>
+<div class="col-6"></div>
+</div>
+
+ 
+    
+
+    
+
+    
+    </form>
+</div>
+<style>
+.form-container{
+    max-width:700px;
+}
+#pin,#state,#address_1,#address_2{
+    margin:8px 0 ;
+}
+label{
+    font-size:16px;
+    font-weight: 500;
+    text-decoration: underline grey 3px;
+}
+input{
+    margin-bottom: 10px;
+}
+</style>
+</body>
+</html>
